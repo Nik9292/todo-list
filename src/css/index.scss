@@ -20,5 +20,22 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 15px;
+}
+
+@media (max-width: 500px) {
+    #app {
+        .todo-list {
+            width: 100%;
+            .first-block {
+                width: 93%;
+            }
+            .second-block {
+                width: 82%;
+            }
+            .card {
+                width: 100%;
+            }
+        }
+    }
 }
